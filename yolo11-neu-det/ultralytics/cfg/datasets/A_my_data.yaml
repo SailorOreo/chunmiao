@@ -1,0 +1,13 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: D:\YOLO\chunmiao\GC10-DET-YOLO
+train: # train images (relative to 'path')  16551 images
+  - train/images
+val: # val images (relative to 'path')  4952 images
+  - valid/images
+test: # test images (optional)
+  - valid/images
+
+
+#names:   ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']
+
+names:   ['punching_hole', 'welding_line', 'crescent_gap', 'water_spot', 'oil_spot', 'silk_spot', 'inclusion', 'rolled_pit', 'crease', 'waist_folding']

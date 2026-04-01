@@ -1,0 +1,21 @@
+# 忽略所有数据集文件夹
+GC10-DET/
+GC10-DET-YOLO/
+NEU-DET/
+NEU-DET_2/
+NEU-DET_split/
+New_GC-DET/
+new_test/
+test/
+
+# 忽略参考资料与图表
+网络结构图/
+相关论文/
+
+# 忽略 IDE 和环境配置
+.idea/
+.accelerate/
+
+# 忽略 YOLO 训练产生的庞大缓存和模型权重文件（这行极其重要）
+runs/
+*.pt
